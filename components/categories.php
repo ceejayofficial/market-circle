@@ -1,5 +1,5 @@
 <!-- ================= CATEGORIES ================= -->
-<section class="py-20 bg-white">
+<section class="py-20 bg-white" id="categories">
 
     <div class="max-w-7xl mx-auto px-4 md:px-6">
 

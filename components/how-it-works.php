@@ -1,5 +1,5 @@
 <!-- ================= HOW IT WORKS ================= -->
-<section class="bg-white py-20 border-t border-b">
+<section class="bg-white py-20 border-t border-b" id="how-it-works">
 
     <div class="max-w-7xl mx-auto px-4 md:px-6">
 

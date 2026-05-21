@@ -16,11 +16,11 @@
         <!-- ================= DESKTOP MENU (≥1212px ONLY) ================= -->
         <nav class="desktop-menu flex items-center space-x-8 text-sm font-medium">
 
-            <a href="#" class="nav-link">Home</a>
-            <a href="#" class="nav-link">Explore</a>
-            <a href="#" class="nav-link">Categories</a>
-            <a href="#" class="nav-link">How It Works</a>
-            <a href="#" class="nav-link">Verified Sellers</a>
+            <a href="index.php" class="nav-link">Home</a>
+            <a href="#explore.php" class="nav-link">Explore</a>
+            <a href="#categories" class="nav-link">Categories</a>
+            <a href="#how-it-works" class="nav-link">How It Works</a>
+            <a href="#verified-sellers.php" class="nav-link">Verified Sellers</a>
 
         </nav>
 
@@ -73,11 +73,11 @@
     <!-- LINKS -->
     <div class="flex flex-col space-y-6 px-6 py-10 text-lg font-medium">
 
-        <a href="#" class="hover:text-yellow-500 transition">Home</a>
-        <a href="#" class="hover:text-yellow-500 transition">Explore</a>
-        <a href="#" class="hover:text-yellow-500 transition">Categories</a>
-        <a href="#" class="hover:text-yellow-500 transition">How It Works</a>
-        <a href="#" class="hover:text-yellow-500 transition">Verified Sellers</a>
+        <a href="index.php" class="hover:text-yellow-500 transition">Home</a>
+        <a href="#explore.php" class="hover:text-yellow-500 transition">Explore</a>
+        <a href="#categories" class="hover:text-yellow-500 transition">Categories</a>
+        <a href="#how-it-works" class="hover:text-yellow-500 transition">How It Works</a>
+        <a href="#verified-sellers.php" class="hover:text-yellow-500 transition">Verified Sellers</a>
 
     </div>
 

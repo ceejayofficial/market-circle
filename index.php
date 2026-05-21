@@ -1,3 +1,9 @@
+
+<style>
+    html {
+    scroll-behavior: smooth;
+}
+</style>
 <?php
 // index.php - Marketplace Home Page
 ?>

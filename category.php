@@ -55,21 +55,29 @@ $products = array_slice($allProducts, $offset, $limit);
         <?php endforeach; ?>
 
     </div>
+<!-- PAGINATION -->
+<div class="mt-10 flex justify-center px-4">
 
-    <!-- PAGINATION -->
-    <div class="flex justify-center mt-10 gap-2">
+    <!-- SCROLL WRAPPER (KEY FIX) -->
+    <div class="w-full md:w-auto overflow-x-auto">
 
-        <?php for ($i = 1; $i <= $totalPages; $i++): ?>
+        <div class="flex items-center gap-2 min-w-max bg-white p-2 rounded-xl border shadow-sm">
 
-            <a href="?cat=<?= $cat ?>&page=<?= $i ?>"
-               class="px-4 py-2 rounded-lg border transition
-               <?= $i == $page ? 'bg-yellow-500 text-black' : 'hover:bg-gray-100' ?>">
-                <?= $i ?>
-            </a>
+            <?php for ($i = 1; $i <= $totalPages; $i++): ?>
 
-        <?php endfor; ?>
+                <a href="?cat=<?= $cat ?>&page=<?= $i ?>"
+                   class="flex-shrink-0 px-4 py-2 rounded-lg border transition whitespace-nowrap
+                   <?= $i == $page ? 'bg-yellow-500 text-black' : 'hover:bg-gray-100 text-gray-700' ?>">
+                    <?= $i ?>
+                </a>
+
+            <?php endfor; ?>
+
+        </div>
 
     </div>
+
+</div>
 
 </div>
 
