@@ -1,0 +1,53 @@
+
+@media (min-width: 1212px) {
+    .desktop-menu,
+    .desktop-actions {
+        display: flex;
+    }
+
+    .hamburger {
+        display: none;
+    }
+}
+
+/* MOBILE + TABLET < 1212px */
+@media (max-width: 1211px) {
+    .desktop-menu,
+    .desktop-actions {
+        display: none;
+    }
+
+    .hamburger {
+        display: flex;
+    }
+}
+
+/* ===== NAV LINK HOVER EFFECT ===== */
+.nav-link {
+    position: relative;
+    transition: 0.3s;
+}
+
+.nav-link::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -4px;
+    width: 0;
+    height: 2px;
+    background: #fbbf24;
+    transition: 0.3s;
+}
+
+.nav-link:hover::after {
+    width: 100%;
+}
+
+/* ===== HAMBURGER STYLE ===== */
+.hamburger span {
+    width: 22px;
+    height: 2px;
+    background: #111;
+    border-radius: 2px;
+    transition: 0.3s;
+}
