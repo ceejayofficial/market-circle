@@ -31,14 +31,14 @@
                    placeholder="Search items..."
                    class="px-3 py-2 border rounded-lg text-sm focus:outline-none focus:ring-2 focus:ring-yellow-400">
 
-            <a href="#" class="text-sm hover:text-yellow-500 transition">Login</a>
+            <a href="login.php" class="text-sm hover:text-yellow-500 transition">Login</a>
 
-            <a href="#"
+            <a href="signup.php"
                class="px-4 py-2 rounded-lg text-sm bg-gray-900 text-white hover:bg-black transition">
                 Register
             </a>
 
-            <a href="#"
+            <a href="post-item.php"
                class="px-4 py-2 rounded-lg text-sm font-semibold bg-yellow-500 text-black hover:bg-yellow-600 transition shadow-sm">
                 Post Item
             </a>
@@ -91,15 +91,15 @@
     <!-- ACTION BUTTONS -->
     <div class="px-6 mt-8 space-y-4">
 
-        <a href="#" class="block text-center py-3 border rounded-xl hover:bg-gray-100 transition">
+        <a href="login.php" class="block text-center py-3 border rounded-xl hover:bg-gray-100 transition">
             Login
         </a>
 
-        <a href="#" class="block text-center py-3 bg-gray-900 text-white rounded-xl hover:bg-black transition">
+        <a href="signup.php" class="block text-center py-3 bg-gray-900 text-white rounded-xl hover:bg-black transition">
             Register
         </a>
 
-        <a href="#" class="block text-center py-3 bg-yellow-500 text-black rounded-xl font-semibold hover:bg-yellow-600 transition">
+        <a href="post-item.php" class="block text-center py-3 bg-yellow-500 text-black rounded-xl font-semibold hover:bg-yellow-600 transition">
             Post Item
         </a>
 
