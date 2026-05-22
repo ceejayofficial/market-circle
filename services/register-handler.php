@@ -54,7 +54,7 @@ if (sendOTP($user['email'], $otp)) {
     $_SESSION['pending_user'] = $user;
     $_SESSION['otp'] = $otp;
 
-    header("Location: /verify-otp.php");
+    header("Location: ./verify-otp.php");
     exit;
 
 } else {

@@ -27,7 +27,10 @@ if (empty($_SESSION['csrf_token'])) {
 <html lang="en">
 
 <?php include './components/head.php'; ?>
+<?php
+include './components/preloader.php';
 
+?>
 <body class="bg-gray-50 min-h-screen overflow-hidden">
 
 <!-- ================= MAIN WRAPPER ================= -->

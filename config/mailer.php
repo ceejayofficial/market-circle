@@ -15,7 +15,7 @@ function sendOTPEmail($email, $otp)
         $mail->Host = 'smtp.gmail.com';
         $mail->SMTPAuth = true;
 
-        // ⚠️ IMPORTANT: USE REAL CREDENTIALS
+        //  IMPORTANT: USE REAL CREDENTIALS
         $mail->Username = 'ekumkofi@gmail.com';
         $mail->Password = 'ystqgcwycvrqhgub';
 
