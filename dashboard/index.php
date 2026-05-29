@@ -8,7 +8,17 @@ if (!isset($_SESSION['user_id'])) {
 
 $page = $_GET['page'] ?? 'overview';
 
-$allowedPages = ['overview','my-items','post-item','profile','settings'];
+// $allowedPages = ['overview','my-items','post-item','profile','settings'];
+
+$allowedPages = [
+    'overview',
+    'my-items',
+    'post-item',
+    'view-item',
+    'edit-item',
+    'profile',
+    'settings'
+];
 
 if (!in_array($page, $allowedPages)) {
     $page = 'overview';

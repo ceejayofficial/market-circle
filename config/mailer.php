@@ -18,7 +18,6 @@ function sendOTPEmail($email, $otp)
         //  IMPORTANT: USE REAL CREDENTIALS
         $mail->Username = 'ekumkofi@gmail.com';
         $mail->Password = 'ystqgcwycvrqhgub';
-
         $mail->SMTPSecure = 'tls';
         $mail->Port = 587;
 
