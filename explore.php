@@ -1,6 +1,5 @@
 <?php
-require_once __DIR__ . '/../config/db.php';
-
+require_once __DIR__ . '/config/db.php';
 /*
 |--------------------------------------------------------------------------
 | FETCH ITEMS
@@ -44,7 +43,14 @@ $images = [];
 foreach ($imagesRaw as $img) {
     $images[$img['item_id']][] = $img;
 }
+
+include './components/head.php';
+include './components/preloader.php';
+include './components/navbar.php';
+
+
 ?>
+
 
 <!-- ================= EXPLORE PAGE ================= -->
 <section class="py-16 bg-gray-50 min-h-screen">
@@ -143,3 +149,9 @@ foreach ($imagesRaw as $img) {
 
     </div>
 </section>
+
+<?php
+
+include './components/footer.php';
+?>
+
