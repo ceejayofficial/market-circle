@@ -132,7 +132,7 @@ include './components/navbar.php';
 
                     <!-- ACTION -->
                     <a href="view-item.php?id=<?= $item['id'] ?>"
-                       class="mt-4 block text-center bg-gray-900 hover:bg-yellow-500
+                       class="mt-4 block text-center bg-red-400 hover:bg-yellow-500
                               hover:text-black text-white py-3 rounded-xl font-semibold transition">
 
                         View Item
