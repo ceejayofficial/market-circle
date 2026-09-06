@@ -819,36 +819,185 @@ include './components/navbar.php';
 
                         <div class="flex gap-3">
 
-                            <svg
-                                class="w-5 h-5 text-yellow-600 shrink-0"
-                                fill="none"
-                                stroke="currentColor"
-                                stroke-width="1.8"
-                                viewBox="0 0 24 24"
-                            >
 
-                                <path
-                                    stroke-linecap="round"
-                                    stroke-linejoin="round"
-                                    d="M12 9v4m0 4h.01M10.3 3.3L2.8 16.3
-                                       A2 2 0 004.53 19h14.94a2 2 0 001.73-2.7
-                                       L13.7 3.3a2 2 0 00-3.4 0z"
-                                />
 
-                            </svg>
+<div class="bg-white border border-gray-200 rounded-2xl p-5 shadow-sm">
 
-                            <div>
+    <!-- Header -->
+    <div class="flex items-start gap-4 pb-4 border-b border-gray-100">
 
-                                <p class="text-sm font-semibold text-gray-900">
-                                    Stay safe
-                                </p>
+        <div class="flex-shrink-0 w-11 h-11 rounded-xl bg-yellow-100 flex items-center justify-center">
+            <svg class="w-5 h-5 text-yellow-700"
+                 fill="none"
+                 stroke="currentColor"
+                 viewBox="0 0 24 24">
+                <path stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      d="M12 9v2m0 4h.01M10.29 3.86l-7.5 13A2 2 0 004.53 20h14.94a2 2 0 001.74-3.14l-7.5-13a2 2 0 00-3.42 0z"/>
+            </svg>
+        </div>
 
-                                <p class="text-xs text-gray-600 mt-1 leading-5">
-                                    Inspect the item before making payment
-                                    and meet the seller in a safe public place.
-                                </p>
+        <div>
+            <h3 class="text-base font-semibold text-gray-900">
+                Stay safe when buying
+            </h3>
 
-                            </div>
+            <p class="text-sm text-gray-500 mt-1 leading-5">
+                Follow these simple tips when meeting a seller or completing
+                a transaction.
+            </p>
+        </div>
+
+    </div>
+
+
+    <!-- Safety Tips -->
+    <div class="mt-4 space-y-4">
+
+        <!-- Tip 1 -->
+        <div class="flex items-start gap-3">
+
+            <div class="flex-shrink-0 mt-0.5 w-7 h-7 rounded-full bg-gray-100 flex items-center justify-center">
+                <svg class="w-4 h-4 text-gray-700"
+                     fill="none"
+                     stroke="currentColor"
+                     viewBox="0 0 24 24">
+                    <path stroke-linecap="round"
+                          stroke-linejoin="round"
+                          stroke-width="2"
+                          d="M9 12l2 2 4-4m5-1a9 9 0 11-18 0 9 9 0 0118 0z"/>
+                </svg>
+            </div>
+
+            <div>
+                <p class="text-sm font-medium text-gray-900">
+                    Inspect before you pay
+                </p>
+
+                <p class="text-xs text-gray-500 mt-0.5 leading-5">
+                    Check the item's condition, features and functionality
+                    carefully before making any payment.
+                </p>
+            </div>
+
+        </div>
+
+
+        <!-- Tip 2 -->
+        <div class="flex items-start gap-3">
+
+            <div class="flex-shrink-0 mt-0.5 w-7 h-7 rounded-full bg-gray-100 flex items-center justify-center">
+                <svg class="w-4 h-4 text-gray-700"
+                     fill="none"
+                     stroke="currentColor"
+                     viewBox="0 0 24 24">
+                    <path stroke-linecap="round"
+                          stroke-linejoin="round"
+                          stroke-width="2"
+                          d="M17.657 16.657L13.414 21l-4.243-4.343m8.486-8.486L13.414 3 9.171 7.343M3 12h18"/>
+                </svg>
+            </div>
+
+            <div>
+                <p class="text-sm font-medium text-gray-900">
+                    Meet in a safe location
+                </p>
+
+                <p class="text-xs text-gray-500 mt-0.5 leading-5">
+                    Choose a busy, public place and avoid meeting in
+                    isolated locations.
+                </p>
+            </div>
+
+        </div>
+
+
+        <!-- Tip 3 -->
+        <div class="flex items-start gap-3">
+
+            <div class="flex-shrink-0 mt-0.5 w-7 h-7 rounded-full bg-gray-100 flex items-center justify-center">
+                <svg class="w-4 h-4 text-gray-700"
+                     fill="none"
+                     stroke="currentColor"
+                     viewBox="0 0 24 24">
+                    <path stroke-linecap="round"
+                          stroke-linejoin="round"
+                          stroke-width="2"
+                          d="M12 15v2m-6 4h12a2 2 0 002-2v-7a2 2 0 00-2-2H6a2 2 0 00-2 2v7a2 2 0 002 2zm10-9V7a4 4 0 00-8 0v3h8z"/>
+                </svg>
+            </div>
+
+            <div>
+                <p class="text-sm font-medium text-gray-900">
+                    Protect your payment
+                </p>
+
+                <p class="text-xs text-gray-500 mt-0.5 leading-5">
+                    Avoid sending money before confirming that the item
+                    is genuine and available.
+                </p>
+            </div>
+
+        </div>
+
+
+        <!-- Tip 4 -->
+        <div class="flex items-start gap-3">
+
+            <div class="flex-shrink-0 mt-0.5 w-7 h-7 rounded-full bg-gray-100 flex items-center justify-center">
+                <svg class="w-4 h-4 text-gray-700"
+                     fill="none"
+                     stroke="currentColor"
+                     viewBox="0 0 24 24">
+                    <path stroke-linecap="round"
+                          stroke-linejoin="round"
+                          stroke-width="2"
+                          d="M18.364 5.636a9 9 0 11-12.728 0M12 3v9m0 0l-3 3m3-3l3 3"/>
+                </svg>
+            </div>
+
+            <div>
+                <p class="text-sm font-medium text-gray-900">
+                    Never share sensitive information
+                </p>
+
+                <p class="text-xs text-gray-500 mt-0.5 leading-5">
+                    Do not share passwords, PINs, verification codes or
+                    unnecessary personal information with anyone.
+                </p>
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <!-- Footer Notice -->
+    <div class="mt-5 pt-4 border-t border-gray-100">
+
+        <div class="flex items-center gap-2 text-xs text-gray-500">
+
+            <svg class="w-4 h-4 text-gray-400 flex-shrink-0"
+                 fill="none"
+                 stroke="currentColor"
+                 viewBox="0 0 24 24">
+                <path stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      d="M13 16h-1v-4h-1m1-4h.01M12 22a10 10 0 100-20 10 10 0 000 20z"/>
+            </svg>
+
+            <span>
+                If something feels suspicious, stop the transaction and
+                report the listing.
+            </span>
+
+        </div>
+
+    </div>
+
+</div>
 
                         </div>
 
